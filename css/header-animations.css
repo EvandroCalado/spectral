@@ -1,0 +1,68 @@
+@keyframes background {
+  0% {
+    background-color: black;
+    background-blend-mode: color;
+  }
+  60% {
+    background-color: black;
+    background-blend-mode: color;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: color;
+  }
+}
+
+@keyframes opaco {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes linhas {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes down {
+  0% {
+    bottom: -225px;
+  }
+  25% {
+    bottom: -225px;
+  }
+
+  60% {
+    bottom: -225px;
+  }
+  75% {
+    bottom: 80px;
+  }
+}
