@@ -4,8 +4,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,6 +32,8 @@
   text-transform: uppercase;
   color: #fff;
   font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 35px;
 }
 
 .header-top-menu {
@@ -50,6 +52,8 @@
   color: #fff;
   font-size: 20px;
   font-weight: 300;
+  letter-spacing: 3px;
+  line-height: 35px;
 }
 
 .menu-hamburguer {
@@ -140,6 +144,8 @@
   cursor: pointer;
   position: relative;
   padding: 5px 30px;
+  letter-spacing: 3px;
+  line-height: 35px;
   animation: opaco 1s linear;
 }
 
@@ -171,6 +177,8 @@
   margin: 40px;
   animation: fade 3s linear;
   text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 5px;
 }
 
 .header-container > button {
@@ -181,6 +189,8 @@
   padding: 12px 40px;
   border: none;
   border-radius: 5px;
+  line-height: 25px;
+  letter-spacing: 5px;
   cursor: pointer;
   animation: fade 3s linear;
 }
@@ -202,12 +212,21 @@
   animation: down 4s linear;
 }
 
+.down > h4 {
+  line-height: 25px;
+  letter-spacing: 3px;
+}
+
 .down i {
   font-size: 30px;
   margin-top: 30px;
 }
 
 @media (max-width: 500px) {
+  .header-top {
+  }
+  .header-top-menu {
+  }
   .header-top-menu-slide {
     width: 200px;
   }
@@ -216,5 +235,10 @@
   }
   .header-top-slide-lista-li {
     width: 155px;
+  }
+  .header-container > p {
+    margin: 10px;
+    line-height: 22px;
+    letter-spacing: 3px;
   }
 }

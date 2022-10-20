@@ -1,7 +1,7 @@
 const abreMenu = document.querySelector(".menu-hamburguer");
 const fechaMenu = document.querySelector(".header-top-menu-slide-fecha");
 const slideMenu = document.querySelector(".header-top-menu-slide");
-const container = document.querySelector(".container");
+const container = document.querySelector(".header-container");
 
 abreMenu.addEventListener("click", () => {
   slideMenu.classList.add("slide");
